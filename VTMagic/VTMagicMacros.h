@@ -47,6 +47,6 @@ blue:((float)(hexValue & 0xFF))/255.0 alpha:1.0]
 // tabbar高度
 #define VTTABBAR_HEIGHT (49)
 // 状态栏高度
-#define VTSTATUSBAR_HEIGHT (20)
+#define VTSTATUSBAR_HEIGHT ([[UIApplication sharedApplication] statusBarFrame].size.height)
 
 #endif
